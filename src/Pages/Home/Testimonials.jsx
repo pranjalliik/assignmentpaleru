@@ -1,13 +1,10 @@
 import React, { useState, useEffect } from "react";
 import t1 from '../../assets/testimonials/testimonial1.png'
 import t2 from '../../assets/testimonials/testimonial2.png'
-import t3 from '../../assets/testimonials/testimonial3.mp4'
 import t4 from '../../assets/testimonials/testimonial4.png'
 import t5 from '../../assets/testimonials/testimonial5.png'
 import t6 from '../../assets/testimonials/testimonial6.png'
-import t7 from '../../assets/testimonials/testimmonil7.mp4'
 import t8 from '../../assets/testimonials/testimonial8.png'
-import t9 from '../../assets/testimonials/testimonial9.png'
 
 
 
@@ -25,7 +22,7 @@ const testimonials = [
   },
   {
     id: 3,
-    media: { type: "video", url: t3},
+    media: { type: "video", url: 'https://www.praccel.com/static/media/saanvi2_4%E2%80%99s-v1.39666f0a7752428b3845.mp4'},
   },
   {
     id: 4,
@@ -41,7 +38,7 @@ const testimonials = [
   },
   {
     id: 7,
-    media: { type: "video", url: t7 },
+    media: { type: "video", url: 'https://www.praccel.com/static/media/uppunda1_3-2.aba56a4db00159e9179d.mp4' },
   },  
   {
     id: 8,

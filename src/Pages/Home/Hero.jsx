@@ -1,6 +1,4 @@
 import React from 'react'
-import herovideo from '../../assets/heroSectionVideo.mp4'
-import herovideo2 from '../../assets/herovid2.mp4'
 import { Fragment } from 'react'
 import feedback from '../../assets/feedback.png'
 import vocab from '../../assets/vocab.png'
@@ -10,7 +8,6 @@ import phone from '../../assets/phone.png'
 import rnt from '../../assets/rabbitNturtle.png'
 import target from '../../assets/target.png'
 import speaking from '../../assets/speaking.png'
-import scorevid from '../../assets/scorevid.mp4'
 function Hero() {
   return (
     <Fragment>
@@ -19,7 +16,7 @@ function Hero() {
   muted 
    
   playsInline>
-      <source src={herovideo} type="video/mp4"/>
+      <source src='https://www.praccel.com/static/media/studentsVideo.5c6d3028dfee8a5aafd3.mp4' type="video/mp4"/>
      </video>
      <div>
         <h1  className='font-semibold mx-2 md:mx-0 md:text-[2.7rem] text-[1.7rem] md:font-bold'>Your <span className='text-[#0b57ff] '>Read Aloud </span>app
@@ -33,7 +30,7 @@ function Hero() {
   muted 
    loop
   playsInline>
-      <source src={herovideo2} type="video/mp4"/>
+      <source src='https://www.praccel.com/static/media/feedbackVideo.50f5fde707f090c30368.mp4' type="video/mp4"/>
      </video>
      <div>
      <div className='text-left text-5xl font-semibold '>Get Feedback</div>
@@ -142,7 +139,7 @@ function Hero() {
               muted 
                   loop
                  playsInline>
-      <source src={scorevid} type="video/mp4"/>
+      <source src='https://www.praccel.com/static/media/scoreVideo.b5c4a12caabd53e3bd1a.mp4' type="video/mp4"/>
      </video>
         </div>
     </div>
